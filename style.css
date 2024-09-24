@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background:
+        linear-gradient(rgba(46, 60, 184, 0.7), rgba(3, 2, 14, 0.7)),
+        url(img/img-seo.jpg) center/cover no-repeat;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    height: 120px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    padding-bottom: 18px;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: border-bottom 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.imagen-seo {
+    border-radius: 12px;
+    height: 335px;
+    margin-left: 110px;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 20px;
+    padding-top: 2.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    font-size: 15px;
+}
+
+section {
+    margin: 2.5% 0 5%;
+}
+
+.meta-etiquetas-sec p {
+    min-width: 50rem;
+}
+
+main h2 {
+    font-size: 1.3rem;
+    color: #003478;
+}
+
+main h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+table {
+    width: 200%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #003478;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #003478;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
